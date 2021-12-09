@@ -10,6 +10,9 @@ header{
     font-family: 'Courier New', Courier, monospace;
     
 }
+footer{
+    font-family: 'Courier New', Courier, monospace;
+}
 
 .parent {
     display: grid;
