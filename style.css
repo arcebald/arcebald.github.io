@@ -1,0 +1,42 @@
+p{
+    color:blue;
+    text-align: center;
+}
+
+.parent {
+    display: grid;
+    grid-template-rows: 400px 400px;
+    grid-template-columns: 400px 400px 400px;
+  }
+  
+  .child {
+    border: 1px blue;
+  }
+  
+  .child-one{
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 1;
+
+  }
+  
+  .child-two {
+    grid-row: 1 / span 1;
+    grid-column: 2 / span 1;
+  }
+
+  .child-three {
+    grid-row: 1 / span 1;
+    grid-column: 3 / span 1;
+  }
+  .child-four {
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 1;
+  }
+  .child-five {
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 1;
+  }
+  .child-six {
+    grid-row: 2 / span 1;
+    grid-column: 3 / span 1;
+  }
