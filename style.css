@@ -1,6 +1,14 @@
-p{
+body{
+    background-color: antiquewhite;
+}
+header{
     color:blue;
     text-align: center;
+    background-color: antiquewhite;
+    height: 50px;
+    
+    font-family: 'Courier New', Courier, monospace;
+    
 }
 
 .parent {
